@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Slides</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+    <textarea id="source">
+        name: inverse
+        layout: true
+        class: center, middle, inverse, first
+
+        ---
+        count: false
+        # This is Title
+        .small[
+          ![](images/logo-white.png)
+        ]
+
+        ---
+        layout: false
+
+        .left-side[
+          # About me
+          ## Demo web slides
+          ### made with remarkjs
+          ### looks nice
+          ### easy to use
+          ### has presenter mode
+        ]
+        .right-side.me.light.center[
+          ![](images/logo.png)
+          ### info@datadog.lt
+          ### https://github.com/DATA-DOG/slides
+        ]
+        ---
+        template: inverse
+
+        # Does it work?
+
+        ![](images/logo-white.png)
+
+        ---
+        # Really, does it work?
+
+        * Yes, it works nicely
+        * You can create slides quickly using markdown language
+        * It's easy to customise via CSS
+        * Just try it
+
+        ---
+        template: inverse
+
+        # Thank you for your attention!
+
+        .white[
+          ### info@datadog.lt
+          ### https://github.com/DATA-DOG/slides
+        ]
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+</body>
+</html>
